@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+*{
+    font-family: Inknut Antiqua;
+    font-weight: 400;
+}
+header{
+    display: flex;
+    background: #FFD2FC;
+}
+#logo{
+    align-content: center;
+}
+#logo img{
+    width: 400px;
+    height: 324px;
+}
+#header-content{
+    width:80%;
+}
+#header-searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    margin-top: 40px;
+}
+#header-searchbar input{
+    width: 400px;
+    border: 0;
+}
+#header-searchbar input:focus{
+    outline: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 55px;
+    font-size: 30px;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+.page{
+    border-bottom: solid 6px white;
+}
+#header-subtitle{
+    margin: 40px 0px 0px;
+    text-align: end;
+}
+#header-subtitle a{
+    text-decoration: none;
+    color: black;
+}
+#header-subtitle h2{
+    margin: 0px 30px 0px 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+main h2{
+    text-align: center;
+}
+#main-text{
+    display: flex;
+    gap: 30px;
+    margin: 0px 40px;
+}
+#side-a,#side-b{
+    max-width: 50%;
+}
+#side-a{
+    border-right: 2px solid ;
+}
+#social-media{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.fa-brands::before{
+    font-size: 2em;
+}

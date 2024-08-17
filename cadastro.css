@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+*{
+    font-family: Inknut Antiqua;
+    font-weight: 400;
+}
+header{
+    display: flex;
+    background: #FFD2FC;
+}
+#logo{
+    align-content: center;
+}
+#logo img{
+    width: 400px;
+    height: 324px;
+}
+#header-content{
+    width:80%;
+}
+#header-searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    margin-top: 40px;
+}
+#header-searchbar input{
+    width: 400px;
+    border: 0;
+}
+#header-searchbar input:focus{
+    outline: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 55px;
+    font-size: 30px;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+.page{
+    border-bottom: solid 6px white;
+}
+#header-subtitle{
+    margin: 40px 0px 0px;
+    text-align: end;
+}
+#header-subtitle a{
+    text-decoration: none;
+    color: black;
+}
+#header-subtitle h2{
+    margin: 0px 30px 0px 0px;
+}
+main{
+    text-align: center;
+}
+main input{
+    width: 35%;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 50px;
+}
+main input:focus{
+    outline: none;
+}
+main h2{
+    margin: 0;
+}
+main a{
+    color: white;
+    background: #BA3636;
+    text-decoration: none;
+    width: 8rem;
+    text-align: center;
+    border-radius: 5px;
+}
